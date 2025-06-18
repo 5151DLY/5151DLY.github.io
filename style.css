@@ -41,3 +41,28 @@ p {
     font-size: 1.1em;
     line-height: 1.6;
 }
+
+a:hover {
+  color: #8dd300;
+  text-decoration: underline;
+}
+button:hover {
+  background: #39c612;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px; /* space between links */
+  justify-content: center; /* center horizontally */
+  margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+  section {
+    padding: 10px;
+  }
+}
